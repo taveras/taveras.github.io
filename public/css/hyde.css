@@ -65,7 +65,7 @@ html {
     top: 0;
     left: 0;
     bottom: 0;
-    width: 18rem;
+    width: 14rem;
     text-align: left;
   }
 }
@@ -79,8 +79,11 @@ html {
 .sidebar-about h1 {
   color: #fff;
   margin-top: 0;
-  font-family: "Abril Fatface", serif;
+  font-family: "Neuton", "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif;
   font-size: 3.25rem;
+  text-shadow: 0px 7px 5px #666;
+  letter-spacing: -0.04em;
+  line-height: 0.8em;
 }
 
 /* Sidebar nav */
@@ -248,3 +251,14 @@ a.sidebar-nav-item:focus {
 .theme-base-0f .related-posts li a:hover {
   color: #8f5536;
 }
+
+/* Danny */
+.theme-base-1n .sidebar {
+  background-color: #295666;
+}
+.theme-base-1n .content a,
+.theme-base-1n .related-posts li a:hover {
+  color: #295666;
+}
+
+
