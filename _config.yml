@@ -21,5 +21,9 @@ paginate:         5
 version:          2.0.0
 
 github:           taveras
-twitter:          gooddoggytreat
+twitter:          danieljtaveras
 linkedin:         danieltaveras
+
+sass:
+  sass_dir: _sass
+  style: compressed

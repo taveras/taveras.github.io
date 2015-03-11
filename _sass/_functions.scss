@@ -1,0 +1,6 @@
+// ensures that $val is constrained by $min and $max
+@function within-bounds($val, $min, $max) {
+  $val: if($val > $max, $max, $val);
+  $val: if($val < $min, $min, $val);
+  @return $val;
+}
