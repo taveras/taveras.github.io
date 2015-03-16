@@ -5,7 +5,7 @@
 // They can be decimals and negative, and it will create cool shadows!
 // blur is if you want a blur attached to the shadow. not recommended
 // count is the amount of shadows to be applied, makes the shadow longer
-@mixin long-shadow($color, $x: 1px, $y: 1px, $blur: 0, $count: 100) {
+@mixin long-shadow($color, $x: 1px, $y: 1px, $blur: 0, $blur-fade: false, $count: 100) {
   // The x and y cannot exceed these constraints
   $min: -5px;
   $max:  5px;
@@ -18,7 +18,14 @@
   @for $i from 1 through $count {
     $x-step:    floor($x*$i);
     $y-step:    floor($y*$i);
-    $blur-step: if($blur > 0, $blur, null);
+    @if($blur-fade and $blur > 0) {
+      //here, we interpolate the blurstep.
+      //$blur-step;
+    }
+    @else {
+      $blur-step: if($blur > 0, $blur, null);
+    }
+    
     $step:      ($x-step $y-step $blur-step $color);
     $out:       append($out, $step, comma);
   }
