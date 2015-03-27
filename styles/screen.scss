@@ -4,11 +4,17 @@
 
 @charset "utf-8";
 
-// Dependencies 
-@import "normalize/normalize";
-@import "bourbon/bourbon";
-@import "grid-settings";
-@import "neat/neat"; 
-
 // Project Modules and Variables
-@import "base";
+@import "partials/base";
+
+// Third-party Dependencies 
+@import "vendor/normalize";
+@import "vendor/pygments"; 
+@import "vendor/bourbon/bourbon";
+@import "modules/grid-settings";
+@import "vendor/neat/neat"; 
+
+
+// Style rules, partials
+@import "partials/typography";
+@import "partials/header";

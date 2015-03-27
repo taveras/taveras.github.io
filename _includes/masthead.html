@@ -1,0 +1,33 @@
+<div class="masthead">
+    <div class="about">
+      <h1><a href="/" title="{{ site.title }}">{{ site.title }}</a></h1>
+      <p class="lead">{{ site.description }}</p>
+    </div>
+
+    <ul class="navigation">
+
+      {% comment %}
+        The code below dynamically generates a sidebar nav of pages with
+        `layout: page` in the front-matter. See readme for usage.
+      {% endcomment %}
+
+      {% assign pages_list = site.pages %}
+      {% for node in pages_list %}
+        {% if node.title != null %}
+          {% if node.layout == "page" %}
+            <li class="navigation-item{% if page.url == node.url %} active{% endif %}">
+              <a href="{{ node.url }}">{{ node.title }}</a>
+            </li>
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+
+      
+      <li class="navigation-item"><a target="_blank" href="http://github.com/{{ site.github }}">GitHub</a></li>
+      <li class="navigation-item"><a target="_blank" href="http://linkedin.com/in/{{ site.linkedin }}">LinkedIn</a></li>
+      <li class="navigation-item"><a target="_blank" href="http://twitter.com/{{ site.twitter }}">Twitter</a></li>
+    </ul>
+
+    <!-- <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p> -->
+  </div>
+</div>

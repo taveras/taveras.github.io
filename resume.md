@@ -1,0 +1,68 @@
+---
+layout: page
+title: Résumé - Daniel Taveras
+notitle: true
+---
+
+## Skills
+
+JavaScript, HTML5, CSS3, Sass, jQuery, PHP, Java, Git, SQL, front-end tooling, UNIX shell scripting, Photoshop, and ripping apart Macs.
+
+---
+
+## Experience
+
+### Front End Developer
+#### Byte Dept. Inc. - _February 2014 - Present_
+
+- Builds web apps for a diverse mix of clients, chiefly implementing these with _JavaScript, PHP CSS3,_ and varying _HTML5 APIs._
+- Measures company site performance and implements custom events with _Google Analytics._
+- Provisions and monitors _AWS EC2_ nodes running Ruby on Rails.
+- Teaches _Git_ workflow and usage to peers and clients.
+
+
+### Genius
+#### Apple Inc. - _November 2007 - February 2014_
+
+- Repaired hardware, software and network issues within the Apple ecosystem.
+- Strategized processes to improve repair and appointment backlogs.
+- Automated common tasks in the repair process with _shell scripts._
+- Wrote internal web applications to improve daily operations using _JavaScript, PHP,_ and _MySQL._
+
+
+---
+
+## Education
+
+
+### Broward College, Fort Lauderdale, FL - _2006-2008_
+Major: _Computer Science_
+
+- Relevant coursework: _Computer Programming, Computer Networking_
+- Tutored peers in _Computer Science_ and _Networking_ as a member of the campus Computer Club.
+
+### Dillard High School, Fort Lauderdale, FL - _2002-2006_
+
+- Earned Diploma of Emerging Computer Technology
+- Relevant coursework: _Computer Programming, Computer Networking, Multimedia, AP Computer Science_
+- Organized an annual Lego Robotics competition for middle school students.
+
+#### Robotics Club - _2003-2006_
+**Software Team Leader**
+
+- Programmed the club's annual robot in _C_ and _PBASIC._
+- Managed small group of programmers and collaborated with the mechanical and electrical teams to complete projected goals.
+- Created technical documentation and flowcharts for code and autonomous mode strategy.
+
+#### Multimedia Club - _2004-2006_
+**Web Director**
+
+- Maintained small-scale web projects, written in _PHP,_ and _JavaScript_, standards-compliant _HTML,_ and _CSS._
+- Managed small team of web developers and graphic designers in a variety of projects.
+
+
+#### Programming Club - _2003-2006_
+**Founder & Director**
+
+- Mentored and facilitated training for students needing to establish a foundation for learning software development.
+- Created varying difficulty practice challenges for annual programming competitions.

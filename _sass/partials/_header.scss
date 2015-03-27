@@ -1,0 +1,40 @@
+.masthead {
+	padding-top: em(60px);
+	padding-bottom: 0;
+	background-color: #295666;
+	font-family: $helvetica;
+	color: white;
+	.about { overflow: hidden; }
+	h1, p.lead, ul.navigation {
+		text-align: center;
+		
+		@include user-select(none);
+	}
+	h1 {
+		@include long-shadow(#062333);
+		font-size: modular-scale(6);
+		a {
+			color: white;
+			&:focus, &:hover {
+				text-decoration: none;
+				color: #eee;
+			}
+		}
+	}
+	ul.navigation {
+		background-color: #062333;
+		margin: 0;
+		bottom: 0;
+		text-align: center;
+		border-top: 5px solid #062333;
+		li.navigation-item {
+			display: inline;
+			padding: 0 1em;
+		}
+	}
+}
+.content {
+	padding: 0;
+	width: auto;
+		margin: auto;
+}
