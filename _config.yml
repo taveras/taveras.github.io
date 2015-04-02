@@ -26,8 +26,8 @@ version:          2.0.0
 
 github:           taveras
 twitter:          danieljtaveras
-linkedin:         danieltaveras
+linkedin:         taveras
 
 sass:
-  sass_dir: _sass
-  style: compressed
+  sass_dir:       _sass
+  style:          compressed

@@ -1,7 +1,8 @@
 ---
 layout: page
-title: Résumé - Daniel Taveras
+title: Résumé
 notitle: true
+nonav: true
 ---
 
 ## Skills

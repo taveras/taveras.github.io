@@ -18,7 +18,7 @@
     $x-step:    floor($x*$i);
     $y-step:    floor($y*$i);
     $blur-step: 0;
-    @if($blur-fade and $blur > 0) {
+    @if ($blur-fade and $blur > 0) {
       //here, we interpolate the blurstep.
       //$blur-step;
     }

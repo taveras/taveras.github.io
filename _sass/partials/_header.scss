@@ -1,40 +1,36 @@
 .masthead {
-	padding-top: em(60px);
 	padding-bottom: 0;
-	background-color: #295666;
-	font-family: $helvetica;
-	color: white;
+	background-color: $primary;
+	color: $primary-link;
 	.about { overflow: hidden; }
-	h1, p.lead, ul.navigation {
+	h1, p.lead, ul {
 		text-align: center;
-		
 		@include user-select(none);
 	}
+	p.lead {
+		display: none
+	}
 	h1 {
-		@include long-shadow(#062333);
+		@include long-shadow($secondary);
 		font-size: modular-scale(6);
+		margin: em(10px);
 		a {
-			color: white;
-			&:focus, &:hover {
-				text-decoration: none;
-				color: #eee;
+			&:hover, &:focus {
+				color: $primary-link;
 			}
 		}
 	}
-	ul.navigation {
-		background-color: #062333;
+	ul {
+		background-color: $secondary;
 		margin: 0;
 		bottom: 0;
 		text-align: center;
-		border-top: 5px solid #062333;
-		li.navigation-item {
+		border: 5px solid $secondary;
+		border-left: 0;
+		border-right: 0;
+		li {
 			display: inline;
 			padding: 0 1em;
 		}
 	}
-}
-.content {
-	padding: 0;
-	width: auto;
-		margin: auto;
 }

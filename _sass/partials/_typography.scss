@@ -6,10 +6,22 @@ body {
 	line-height: modular-scale(1, 1em, 1.5);
 	cursor: default;
 }
+.masthead, .colophon {
+	font-family: $helvetica;
+}
 
 a {
 	text-decoration: none;
+	color: $primary;
+	.masthead &, .colophon & {
+		color: $primary-link;
+		&:hover, &:focus {
+			color: $secondary-link;
+			text-decoration: none;
+		}
+	}
 	&:hover, &:focus {
+		color: $secondary;
 		text-decoration: underline;
 	}
 }
@@ -69,6 +81,10 @@ ul li {
 	}
 }
 
+li.active {
+	font-weight: bold;
+}
+
 // Code blocks
 %codeblock {
 	font-family: $monospace;
@@ -102,7 +118,7 @@ hr {
 }
 
 
-/* Body text */
+// Body text
 p {
   margin-top: 0;
   margin-bottom: 1rem;
