@@ -1,8 +1,26 @@
-$teal: #295666;
-$darkteal: #062333;
-$white: #ffffff;
+$red: #B0342D;
+$orange: #D13D00;
+$magenta: #B04867;
+$pink: #CC6699;
 
-$primary: $teal;
-$secondary: darken($primary, 15%);
+$green: #40B072;
+$hunter: #87B060;
+$teal: #23B0AF;
+$darkteal: #295666;
+
+$blue: #3B5DB0;
+$cyan: #39B3CC;
+$periwinkle: #6C7AB2;
+$purple: #B25CA6;
+
+$white: #ffffff;
+$black: #000000;
+
+$primary: $cyan;
+$secondary: darken( $primary, 10% );
+//$secondary: desaturate(darken( $primary, 10% ), 25%);
 $primary-link: $white;
-$secondary-link: darken($primary-link, 15%);
+$secondary-link: darken( $primary-link, 15% );
+$sans-serif: join( "Raleway",$helvetica, comma );
+$serif: join( "Radley",$georgia, comma );
+$fixed-width: join( "Inconsolata",$monospace, comma );

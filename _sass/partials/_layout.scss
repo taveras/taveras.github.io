@@ -1,0 +1,24 @@
+
+// Only make the body change colors
+// when the Neat visual grid is off.
+@if not $visual-grid {
+	body {
+		background-color: $secondary;
+	}
+	.container {
+		background-color: $white;
+	}
+}
+
+.content {
+	
+	padding: 0;
+	width: auto;
+	margin: auto;
+	@include outer-container;
+	.page {
+		@include span-columns(10);
+		@include shift(0);
+		padding: 1em;
+	}
+}

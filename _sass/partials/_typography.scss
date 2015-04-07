@@ -1,13 +1,15 @@
 // Generic elements
 
 body {
-	font-family: $georgia;
-	font-size: modular-scale(0);
+	font-family: $serif;
+	font-size: modular-scale(0, 16px);
 	line-height: modular-scale(1, 1em, 1.5);
+	letter-spacing: 0.5px;
 	cursor: default;
+	text-rendering: optimizeLegibility;
 }
 .masthead, .colophon {
-	font-family: $helvetica;
+	font-family: $sans-serif;
 }
 
 a {
@@ -41,30 +43,30 @@ strong {
 // Headings //
 %heading {
   margin-bottom: .5rem;
-  font-family: $helvetica;
+  font-family: $sans-serif;
   font-weight: bold;
   line-height: modular-scale(0, 1em, 1.5);
   color: #313131;
-  text-rendering: optimizeLegibility;
+  text-transform: capitalize;
 }
 h1 {
 	@extend %heading;
-  font-size: modular-scale(3);
+  font-size: modular-scale(3, 16px);
 }
 h2 {
 	@extend %heading;
   margin-top: 1rem;
-  font-size: modular-scale(2);
+  font-size: modular-scale(2, 16px);
 }
 h3 {
 	@extend %heading;
   margin-top: 1.5rem;
-  font-size: modular-scale(1);
+  font-size: modular-scale(1, 16px);
 }
 h4, h5, h6 {
 	@extend %heading;
   margin-top: 1rem;
-  font-size: modular-scale(0);
+  font-size: modular-scale(0, 16px);
 }
 
 
@@ -87,8 +89,8 @@ li.active {
 
 // Code blocks
 %codeblock {
-	font-family: $monospace;
-	font-size: modular-scale(0);
+	font-family: $fixed-width;
+	font-size: modular-scale(0, 16px);
 	background-color: #f9f9f9;
 	box-shadow: 0px 1px 1px rgba(0,0,0,0.1);
 }

@@ -1,0 +1,21 @@
+
+.colophon {
+	background-color: $secondary;
+	padding: 1em 0;
+
+	ul {
+		text-align: center;
+		li {
+			display: inline;
+			padding: 0 em(8px);
+		}
+	}
+
+	a {
+		padding: em(10px);
+		&:hover, &:focus {
+			background-color: $primary-link;
+			color: $secondary;
+		}
+	}
+}

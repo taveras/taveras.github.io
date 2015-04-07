@@ -4,9 +4,6 @@
 
 @charset "utf-8";
 
-// Project Modules and Variables
-@import "partials/base";
-
 // Third-party Dependencies 
 @import "vendor/normalize";
 @import "vendor/pygments"; 
@@ -14,6 +11,9 @@
 @import "modules/grid-settings";
 @import "vendor/neat/neat"; 
 
+
+// Project Modules and Variables
+@import "partials/base";
 
 // Style rules, partials
 @import "partials/typography";
