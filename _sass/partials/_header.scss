@@ -2,18 +2,23 @@
 	padding-bottom: 0;
 	background-color: $primary;
 	color: $primary-link;
-	.about { overflow: hidden; }
+	.title { overflow: hidden; }
 	h1, p.lead, ul {
 		text-align: center;
 		@include user-select(none);
+	}
+	h1 {
+		text-align: start;
 	}
 	p.lead {
 		display: none
 	}
 	h1 {
-		@include long-shadow($secondary);
+		@include long-shadow($secondary, 1px);
 		font-size: modular-scale(6);
-		margin: em(10px);
+
+
+		margin: em(5px);
 		a {
 			&:hover, &:focus {
 				color: $primary-link;
@@ -25,7 +30,7 @@
 		margin: 0;
 		bottom: 0;
 		text-align: center;
-		border: 5px solid $secondary;
+		border: em(5px) solid $secondary;
 		border-left: 0;
 		border-right: 0;
 		li {

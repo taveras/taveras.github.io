@@ -17,8 +17,50 @@
 	margin: auto;
 	@include outer-container;
 	.page {
-		@include span-columns(10);
-		@include shift(0);
-		padding: 1em;
+		@include span-columns(7);
+		@include shift(2);
+
+		@include media($phablet) {
+				@include shift(0);
+				@include span-columns(4);
+				@include pad;
+			}
+	}
+}
+
+.masthead, .colophon {
+	ul {
+		padding: 0;
+		margin: 0;
+	}
+}
+
+.masthead {
+	.title {
+		@include outer-container;
+		h1 {
+			@include span-columns(7);
+			@include shift(2);
+
+			@include media($desktop) {
+				@include span-columns(6);
+				font-size: modular-scale(5);
+			}
+
+			@include media($tablet) {
+				@include span-columns(5);
+				font-size: modular-scale(5);
+			}
+
+			@include media($phablet) {
+				@include shift(1);
+				@include span-columns(3);
+				@include pad;
+			}
+
+			@include media($mobile) {
+				font-size: modular-scale(4);	
+			}
+		}
 	}
 }

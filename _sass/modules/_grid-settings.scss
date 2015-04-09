@@ -7,6 +7,11 @@ $grid-columns: 10;
 $max-width: em(1088);
 
 // Define your breakpoints
-$tablet: new-breakpoint(max-width 768px 8);
-$mobile: new-breakpoint(max-width 480px 4);
+$desktop: new-breakpoint(max-width 1160px 8);
+$tablet:  new-breakpoint(max-width 815px 6);
+$phablet: new-breakpoint(max-width 600px 4);
+$mobile:  new-breakpoint(max-width 300px 4);
+
+// Debugging settings
 $visual-grid: false;
+$visual-grid-index: front;

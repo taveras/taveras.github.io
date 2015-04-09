@@ -7,15 +7,25 @@
 		text-align: center;
 		li {
 			display: inline;
+			list-decoration: none;
 			padding: 0 em(8px);
+			@include media($phablet) {
+				display: block;
+				padding: em(8px);
+			}
 		}
 	}
 
 	a {
-		padding: em(10px);
+		padding: em(15px);
+		border-radius: em(3px);
 		&:hover, &:focus {
 			background-color: $primary-link;
 			color: $secondary;
 		}
+	}
+	p {
+		color: $secondary-link;
+		text-align: center;
 	}
 }

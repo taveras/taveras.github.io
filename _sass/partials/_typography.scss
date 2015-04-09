@@ -1,12 +1,22 @@
 // Generic elements
 
 body {
+	color: $body-copy;
 	font-family: $serif;
-	font-size: modular-scale(0, 16px);
+	font-size: modular-scale(0);
 	line-height: modular-scale(1, 1em, 1.5);
-	letter-spacing: 0.5px;
+	letter-spacing: em(0.5px);
 	cursor: default;
 	text-rendering: optimizeLegibility;
+	@include media($tablet) {
+		font-size: em(14px);
+	}
+	@include media($phablet) {
+		font-size: em(12px);
+	}
+	@include media($mobile) {
+		font-size: em(10px);
+	}
 }
 .masthead, .colophon {
 	font-family: $sans-serif;
@@ -34,6 +44,9 @@ p {
 	.content & {
 		cursor: auto;
 	}
+	.colophon & {
+		font-size: modular-scale(-1);
+	}
 }
 
 strong {
@@ -42,31 +55,31 @@ strong {
 
 // Headings //
 %heading {
-  margin-bottom: .5rem;
+  margin-bottom: 0.5em;
   font-family: $sans-serif;
   font-weight: bold;
   line-height: modular-scale(0, 1em, 1.5);
-  color: #313131;
+  color: $complementary;
   text-transform: capitalize;
 }
 h1 {
 	@extend %heading;
-  font-size: modular-scale(3, 16px);
+  font-size: modular-scale(3);
 }
 h2 {
 	@extend %heading;
   margin-top: 1rem;
-  font-size: modular-scale(2, 16px);
+  font-size: modular-scale(2);
 }
 h3 {
 	@extend %heading;
   margin-top: 1.5rem;
-  font-size: modular-scale(1, 16px);
+  font-size: modular-scale(1);
 }
 h4, h5, h6 {
 	@extend %heading;
   margin-top: 1rem;
-  font-size: modular-scale(0, 16px);
+  font-size: modular-scale(0);
 }
 
 
@@ -90,7 +103,7 @@ li.active {
 // Code blocks
 %codeblock {
 	font-family: $fixed-width;
-	font-size: modular-scale(0, 16px);
+	font-size: modular-scale(0);
 	background-color: #f9f9f9;
 	box-shadow: 0px 1px 1px rgba(0,0,0,0.1);
 }
@@ -128,4 +141,9 @@ p {
 
 strong {
   color: #303030;
+}
+
+.post-date {
+	color: $body-highlight;
+	text-transform: lowercase;
 }
