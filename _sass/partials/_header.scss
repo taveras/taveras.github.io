@@ -15,7 +15,6 @@
 	}
 	h1 {
 		@include long-shadow($secondary, 1px);
-		font-size: modular-scale(6);
 
 
 		margin: em(5px);

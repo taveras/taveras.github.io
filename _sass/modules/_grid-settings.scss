@@ -1,4 +1,3 @@
-@import "vendor/neat/neat-helpers";
 
 // Change the grid settings
 $column: em(90px);
@@ -7,9 +6,10 @@ $grid-columns: 10;
 $max-width: em(1088);
 
 // Define your breakpoints
-$desktop: new-breakpoint(max-width 1160px 8);
-$tablet:  new-breakpoint(max-width 815px 6);
-$phablet: new-breakpoint(max-width 600px 4);
+$desktop: new-breakpoint(max-width 1190px 8);
+$tablet:  new-breakpoint(max-width 950px 6);
+$sub-tablet:  new-breakpoint(max-width 815px 6);
+$phablet: new-breakpoint(max-width 650px 4);
 $mobile:  new-breakpoint(max-width 300px 4);
 
 // Debugging settings

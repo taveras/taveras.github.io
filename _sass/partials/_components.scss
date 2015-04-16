@@ -1,0 +1,28 @@
+%pagination-item {
+	display: inline-block;
+	text-align: center;	
+	width: em(100px);
+	padding: em(7px) em(15px);
+	margin: 0;
+	margin-right: em(5px);
+	border: em(2px) solid $secondary-faded;
+	border-radius: em(3px);
+	color: $secondary-faded;
+	text-decoration: none;
+}
+.pagination {
+	margin-top: em(40px);
+
+	span {
+		@extend %pagination-item;
+	}
+	a {
+		@extend %pagination-item;
+		border-color: $primary;
+		color: $primary;
+		&:hover {
+			background: $primary;
+			color: white;
+		}
+	}
+}

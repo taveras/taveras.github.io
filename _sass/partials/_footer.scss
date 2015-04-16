@@ -17,7 +17,7 @@
 	}
 
 	a {
-		padding: em(15px);
+		padding: em(10px) em(15px);
 		border-radius: em(3px);
 		&:hover, &:focus {
 			background-color: $primary-link;
@@ -27,5 +27,6 @@
 	p {
 		color: $secondary-link;
 		text-align: center;
+		margin: 0.75em;
 	}
 }

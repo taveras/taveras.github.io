@@ -6,8 +6,9 @@
 
 // Third-party Dependencies 
 @import "vendor/normalize";
-@import "vendor/pygments"; 
+@import "vendor/pygments/manni"; 
 @import "vendor/bourbon/bourbon";
+@import "vendor/neat/neat-helpers";
 @import "modules/grid-settings";
 @import "vendor/neat/neat"; 
 
@@ -20,3 +21,4 @@
 @import "partials/header";
 @import "partials/footer";
 @import "partials/layout";
+@import "partials/components";

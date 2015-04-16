@@ -3,20 +3,10 @@
 body {
 	color: $body-copy;
 	font-family: $serif;
-	font-size: modular-scale(0);
 	line-height: modular-scale(1, 1em, 1.5);
 	letter-spacing: em(0.5px);
 	cursor: default;
 	text-rendering: optimizeLegibility;
-	@include media($tablet) {
-		font-size: em(14px);
-	}
-	@include media($phablet) {
-		font-size: em(12px);
-	}
-	@include media($mobile) {
-		font-size: em(10px);
-	}
 }
 .masthead, .colophon {
 	font-family: $sans-serif;
@@ -51,6 +41,11 @@ p {
 
 strong {
   color: #303030;
+}
+
+.pagination {
+	font-family: $sans-serif;
+	font-size: modular-scale(0);
 }
 
 // Headings //
@@ -103,9 +98,7 @@ li.active {
 // Code blocks
 %codeblock {
 	font-family: $fixed-width;
-	font-size: modular-scale(0);
-	background-color: #f9f9f9;
-	box-shadow: 0px 1px 1px rgba(0,0,0,0.1);
+	font-size: 1.15em;	
 }
 
 pre {
@@ -116,6 +109,7 @@ pre {
 	padding: 1rem;
 	
 	line-height: modular-scale(0, 1em, 1.5);
+	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
 	white-space: pre;
 	white-space: pre-wrap;
 	@include word-wrap;	
@@ -123,8 +117,6 @@ pre {
 
 code {
 	@extend %codeblock;
-	color: #bf616a;
-	background-color: #f9f9f9;
 }
 
 hr {
@@ -143,7 +135,38 @@ strong {
   color: #303030;
 }
 
+blockquote {
+  padding: 0.5em 1em;
+  margin: 1em 0;
+  color: #666;
+  border-left: 0.25em solid #ccc;
+  *:last-child {
+  	margin-bottom: 0;
+  }
+}
+
 .post-date {
 	color: $body-highlight;
 	text-transform: lowercase;
+}
+
+
+table {
+	margin: em(20px) 0;
+
+	thead {
+		background: $secondary-link;
+		color: $white;
+	}
+
+	td, th {
+	  padding: 4px 10px;
+	  &+td, &+th {
+	  	border-left: 3px solid $white;
+	  }
+	}
+
+	tr:nth-of-type(2n) {
+		background: #f1f1f1;
+	}
 }

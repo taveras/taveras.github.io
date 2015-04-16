@@ -10,6 +10,21 @@
 	}
 }
 
+body {
+  font-size: modular-scale(0);
+  @include media($tablet) {
+    font-size: em(18px);
+  }
+  @include media($phablet) {
+    font-size: em(16px);
+  }
+  @include media($mobile) {
+    font-size: em(14px);
+  }
+}
+.container {
+  padding: em(40px) 0;
+}
 .content {
 	
 	padding: 0;
@@ -17,14 +32,18 @@
 	margin: auto;
 	@include outer-container;
 	.page {
-		@include span-columns(7);
-		@include shift(2);
+		@include span-columns(8);
+		@include shift(1);
 
 		@include media($phablet) {
-				@include shift(0);
-				@include span-columns(4);
-				@include pad;
-			}
+			@include span-columns(3);
+			@include pad;
+		}
+    @include media($mobile) {
+      @include span-columns(4);
+      margin-left: 0;
+      @include pad(em(15));
+    }
 	}
 }
 
@@ -39,28 +58,44 @@
 	.title {
 		@include outer-container;
 		h1 {
-			@include span-columns(7);
-			@include shift(2);
+			@include span-columns(8);
+			@include shift(1);
+			font-size: modular-scale(6, 24px);
+      white-space: nowrap;
 
 			@include media($desktop) {
+				@include shift(1);
 				@include span-columns(6);
 				font-size: modular-scale(5);
 			}
 
 			@include media($tablet) {
 				@include span-columns(5);
-				font-size: modular-scale(5);
+				font-size: modular-scale(5, 24px);
 			}
-
+      @include media($sub-tablet) {
+        @include span-columns(5);
+        font-size: modular-scale(4, 24px);
+        white-space: normal;
+      }
 			@include media($phablet) {
-				@include shift(1);
+        
 				@include span-columns(3);
 				@include pad;
+        @include long-shadow($secondary, 0.6px);
+        text-align: center;
 			}
 
 			@include media($mobile) {
-				font-size: modular-scale(4);	
+				font-size: modular-scale(3, 24px);
+        margin: 0;
+        @include span-columns(4);
 			}
 		}
 	}
+}
+.pagination {
+  @include media($phablet) {
+    text-align: center;
+  }
 }

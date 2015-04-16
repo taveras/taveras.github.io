@@ -23,12 +23,10 @@ $secondary: darken( $primary, 10% );
 $complementary: complement( $primary );
 $body-copy: lighten( $black, 40% );
 $body-highlight: lighten( $body-copy, 30%);
-//$secondary: desaturate(darken( $primary, 10% ), 25%);
 $primary-link: $white;
 $secondary-link: mix( $primary-link, $secondary, 55% );
-//$secondary-link: darken( $primary-link, 15% );
+$secondary-faded: desaturate($secondary-link, 25%);
 $sans-serif: join( "Raleway",$helvetica, comma );
 $serif: join( "Radley",$georgia, comma );
 $fixed-width: join( "Inconsolata",$monospace, comma );
-
-$modular-scale-base: em(18px);
+$modular-scale-base: em(20px);
