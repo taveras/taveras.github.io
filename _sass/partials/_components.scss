@@ -26,3 +26,23 @@
 		}
 	}
 }
+
+
+p[data-pullquote] {
+	display: block;
+	@include media($mobile) {
+		display: none;
+	}
+	&:before {
+		content: attr(data-pullquote);
+		float: right;
+		width: em(200px);
+		margin: 0 0 0.5em 30px;
+		padding: 0 -5% 0 0;
+		font-size: 1.3em;
+		font-style: italic;
+		color: $primary;
+		text-shadow: $secondary 0 1px;
+		text-align: center;
+	}
+}

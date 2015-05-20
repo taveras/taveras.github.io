@@ -99,3 +99,59 @@ body {
     text-align: center;
   }
 }
+
+.resume {
+	@include media(print) {
+		body {
+			font-size: em(10px);
+		}
+	}
+	padding: em(60px);
+	line-height: em(30px);
+	ul li {
+		list-style: square outside;
+  	line-height: 1.3em;
+  	padding: 0.4em 0;
+	}
+	header {
+		text-align: right;
+		ul {
+			margin-top: 0.5em;
+			li {
+				list-style: none;
+				display: inline;
+				&+li::before {
+					content: " ▪︎ ";
+					color: $primary;
+				}
+				span {
+					background: $primary;
+					color: $white;
+					border-radius: 5px;
+					padding: 5px;
+				}
+			}
+		}
+	}
+	.skills {
+		li {
+			display: inline;
+			list-style: none;
+			transition: 0.2s all;
+			cursor: pointer;
+			&:hover {
+				background-color: rgba($secondary, 0.1);
+				border-radius: 15px;
+			}
+		}
+	}
+	h1 {
+		margin: 0;
+		color: $primary;
+		font-size: modular-scale(5);
+	}
+	h3, h4 {
+		margin-bottom: em(2px);
+		color: $body-strong;
+	}
+}

@@ -21,12 +21,15 @@ $primary: $cyan;
 
 $secondary: darken( $primary, 10% );
 $complementary: complement( $primary );
-$body-copy: lighten( $black, 40% );
+$body-copy: mix( lighten( $black, 40% ), $primary, 80%);
+$body-strong: darken( $body-copy, 30%);
 $body-highlight: lighten( $body-copy, 30%);
 $primary-link: $white;
 $secondary-link: mix( $primary-link, $secondary, 55% );
 $secondary-faded: desaturate($secondary-link, 25%);
-$sans-serif: join( "Raleway",$helvetica, comma );
-$serif: join( "Radley",$georgia, comma );
-$fixed-width: join( "Inconsolata",$monospace, comma );
+$secondary-light: lighten($secondary-faded, 21%);
+$sans-serif: join( "Raleway", $helvetica, comma );
+$serif: join( "Radley", $georgia, comma );
+$fixed-width: join( "Inconsolata", $monospace, comma );
 $modular-scale-base: em(20px);
+

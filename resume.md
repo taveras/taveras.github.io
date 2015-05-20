@@ -1,29 +1,24 @@
 ---
-layout: page
+layout: resume
 title: Résumé
 notitle: true
 nonav: true
 ---
 
-## Skills
-
-JavaScript, HTML5, CSS3, Sass, jQuery, PHP, Java, Git, SQL, front-end tooling, UNIX shell scripting, Photoshop, and ripping apart Macs.
 
 ---
 
 ## Experience
 
-### Front End Developer
-#### Byte Dept. Inc. - _February 2014 - Present_
+### Front End Developer, Byte Dept. Inc. - _February 2014 - Present_
 
-- Builds web apps for a diverse mix of clients, chiefly implementing these with _JavaScript, PHP CSS3,_ and varying _HTML5 APIs._
-- Measures company site performance and implements custom events with _Google Analytics._
-- Provisions and monitors _AWS EC2_ nodes running Ruby on Rails.
-- Teaches _Git_ workflow and usage to peers and clients.
+- Built web apps for a diverse mix of clients, chiefly implementing these with _JavaScript, PHP CSS3,_ and varying _HTML5 APIs._
+- Measured company site performance and implements custom events with _Google Analytics._
+- Provisioned and monitored _AWS EC2_ nodes running Ruby on Rails.
+- Taught _Git_ workflow and usage to peers and clients.
 
 
-### Genius
-#### Apple Inc. - _November 2007 - February 2014_
+### Genius, Apple Inc. - _November 2007 - February 2014_
 
 - Repaired hardware, software and network issues within the Apple ecosystem.
 - Strategized processes to improve repair and appointment backlogs.
@@ -33,37 +28,35 @@ JavaScript, HTML5, CSS3, Sass, jQuery, PHP, Java, Git, SQL, front-end tooling, U
 
 ---
 
+
+
 ## Education
 
 
 ### Broward College, Fort Lauderdale, FL - _2006-2008_
-Major: _Computer Science_
-
+- Majored in _Computer Science_
 - Relevant coursework: _Computer Programming, Computer Networking_
-- Tutored peers in _Computer Science_ and _Networking_ as a member of the campus Computer Club.
+- Tutored peers in writing _Java_ code and _Networking_ as a member of the campus Computer Club.
 
 ### Dillard High School, Fort Lauderdale, FL - _2002-2006_
 
-- Earned Diploma of Emerging Computer Technology
+- Earned Diploma of _Emerging Computer Technology_
 - Relevant coursework: _Computer Programming, Computer Networking, Multimedia, AP Computer Science_
 - Organized an annual Lego Robotics competition for middle school students.
 
-#### Robotics Club - _2003-2006_
-**Software Team Leader**
+- **Software Team Leader, Robotics Club**
 
-- Programmed the club's annual robot in _C_ and _PBASIC._
-- Managed small group of programmers and collaborated with the mechanical and electrical teams to complete projected goals.
-- Created technical documentation and flowcharts for code and autonomous mode strategy.
+	- Programmed the club's annual robot in _C_ and _PBASIC._
+	- Managed a small group of programmers, and collaborated with the mechanical and electrical teams to design autonomous mode behavior.
+	- Created technical documentation and flowcharts for code and autonomous mode strategy.
 
-#### Multimedia Club - _2004-2006_
-**Web Director**
+- **Web Director, Multimedia Club**
 
-- Maintained small-scale web projects, written in _PHP,_ and _JavaScript_, standards-compliant _HTML,_ and _CSS._
-- Managed small team of web developers and graphic designers in a variety of projects.
+	- Maintained small-scale web projects, written in _PHP,_ and _JavaScript_, standards-compliant _HTML,_ and _CSS._
+	- Managed a small team of web developers and graphic designers in a variety of projects.
 
 
-#### Programming Club - _2003-2006_
-**Founder & Director**
+-  **Founder & Director, Programming Club**
 
-- Mentored and facilitated training for students needing to establish a foundation for learning software development.
-- Created varying difficulty practice challenges for annual programming competitions.
+	- Mentored and facilitated workshops for students to learn Java and object-oriented programming.
+	- Created varying difficulty practice challenges for annual programming competitions.

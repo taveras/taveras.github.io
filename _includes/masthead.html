@@ -1,23 +1,21 @@
-<div class="masthead">
+  <div class="masthead">
     <div class="title">
       <h1><a href="/" title="{{ site.title }}">{{ site.title }}</a></h1>
     </div>
 
     <ul>
-
-      {% comment %}
-        The code below dynamically generates a sidebar nav of pages with
-        `layout: page` in the front-matter. See readme for usage.
-      {% endcomment %}
-
+      {{paginator.pages}}
       {% assign pages_list = site.pages | sort:"title" %}
       {% for node in pages_list %}
         {% if node.title != null %}
           {% if node.nonav != true %}
-            {% if node.layout == "page" %}
-              <li class="{% if page.url == node.url %}active{% endif %}">
-                <a href="{{ node.url }}">{{ node.title }}</a>
-              </li>
+            {% if node.url contains "weblog/page" %}
+            {% else %}
+              {% if node.layout == "page" %}
+                <li class="{% if page.url == node.url %}active{% endif %}">
+                  <a href="{{ node.url }}">{{ node.title }}</a>
+                </li>
+              {% endif %}
             {% endif %}
           {% endif %}
         {% endif %}

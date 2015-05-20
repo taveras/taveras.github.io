@@ -14,7 +14,7 @@
 		display: none
 	}
 	h1 {
-		@include long-shadow($secondary, 1px);
+		@include long-shadow($secondary, 1px, $count: 150);
 
 
 		margin: em(5px);
