@@ -6,7 +6,7 @@
 	margin: 0;
 	margin-right: em(5px);
 	border: em(2px) solid $secondary-faded;
-	border-radius: em(3px);
+	@include border-radius( em(3px) );
 	color: $secondary-faded;
 	text-decoration: none;
 }
@@ -44,5 +44,20 @@ p[data-pullquote] {
 		color: $primary;
 		text-shadow: $secondary 0 1px;
 		text-align: center;
+	}
+}
+
+img, svg {
+	&.framed {
+		border: em(5px) solid $primary;
+		@include border-radius( em(3px) );
+	}
+	&.left {
+		float: left;
+		margin: 0 1em 0 0;
+	}
+	&.right {
+		float: right;
+		margin: 0 0 0 1em;
 	}
 }

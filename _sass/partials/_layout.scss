@@ -127,8 +127,9 @@ body {
 				span {
 					background: $primary;
 					color: $white;
-					border-radius: 5px;
-					padding: 5px;
+					//border-radius: 5px;
+					@include border-radius( em(5px) );
+					padding: em(5px);
 				}
 			}
 		}
@@ -153,7 +154,8 @@ body {
 			cursor: pointer;
 			&:hover {
 				background-color: rgba($secondary, 0.1);
-				border-radius: 15px;
+				//border-radius: 15px;
+				@include border-radius( em(15px) );
 			}
 		}
 	}

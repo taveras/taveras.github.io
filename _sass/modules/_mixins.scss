@@ -31,3 +31,7 @@
   }
   text-shadow: $out;
 }
+
+@mixin border-radius($value) {
+  @include prefixer(border-radius, $value, webkit ms spec);
+}

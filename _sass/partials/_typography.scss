@@ -124,7 +124,7 @@ hr {
 	opacity: 0.5;
 	height: 3px;
 	border: 0;
-	border-radius: em(3px);
+	@include border-radius( em(3px) );
 	@include linear-gradient(to right, $secondary-link, $secondary 25%, $secondary 75%, $secondary-link, $fallback: $secondary);
 }
 
