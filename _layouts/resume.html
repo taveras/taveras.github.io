@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+
+  {% include head.html %}
+
+  <body>
+		<div class="container">
+			<div class="content resume">
+				<header>
+					<h1>{{ site.author.name }}</h1>
+					<ul>
+						<li>
+							<span>email</span>
+							<a href="mailto:me@daniel.taveras.com"> me@danieltaveras.com </a>
+						</li>
+						<li>
+							<span>github</span>
+							<a href="http://github.com/{{ site.github }}"> {{ site.github }} </a>
+						</li>
+						<li>
+							<span>linkedin</span>
+							<a href="http://linkedin.com/in/{{ site.linkedin }}"> {{ site.linkedin }} </a>
+						</li>
+					</ul>
+				</header>
+
+			<section class="skills">
+				<h2>Skills</h2>
+				<ul>
+					<li>JavaScript</li>,
+					<li>HTML5</li>,
+					<li>CSS3</li>,
+					<li>Sass</li>,
+					<li>jQuery</li>,
+					<li>PHP</li>,
+					<li>Java</li>,
+					<li>Git</li>,
+					<li>SQL</li>,
+					<li>front-end tooling</li>,
+					<li>shell scripting</li>,
+					<li>Photoshop</li>,
+					and <li>ripping apart Macs</li>
+				</ul>
+			</section>
+				
+	  	{{ content }}
+			</div>
+		</div>
+  </body>
+</html>
