@@ -47,7 +47,7 @@ p[data-pullquote] {
 	}
 }
 
-img, svg {
+img, div, svg {
 	&.framed {
 		border: em(5px) solid $primary;
 		@include border-radius( em(3px) );
@@ -60,4 +60,18 @@ img, svg {
 		float: right;
 		margin: 0 0 0 1em;
 	}
+}
+.treat-container {
+	@include media($tablet) {
+    width: 200px;
+    height: 200px;
+  }
+  @include media($phablet) {
+    width: 100px;
+    height: 100px;
+  }
+  @include media($mobile) {
+    width: 50px;
+    height: 50px;
+  }
 }
