@@ -3,6 +3,7 @@ layout: resume
 title: Résumé
 notitle: true
 nonav: true
+noindex: true
 ---
 
 

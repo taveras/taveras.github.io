@@ -19,7 +19,7 @@ author:
   name:           'Daniel Taveras'
   url:            http://danieltaveras.com
 
-paginate:         1
+paginate:         3
 paginate_path: "/weblog/page:num/"
 
 # Custom vars

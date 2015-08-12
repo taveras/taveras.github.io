@@ -2,6 +2,7 @@
 layout: post
 title: Style Guide
 permalink: styleguide-test
+duration: 2
 ---
 
 
