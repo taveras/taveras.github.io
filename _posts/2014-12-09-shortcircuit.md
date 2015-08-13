@@ -5,7 +5,7 @@ permalink: short-circuit-evaluation
 duration: 5
 ---
 
-While having little to do with electricity or input-seeking self-aware robots, this cool trick is still pretty cool to see in action.
+While having little to do with electricity or input-seeking self-aware robots, this technique is still pretty cool to see in action.
 
 Both computers and humans do not enjoy wasting time. As such, some programming languages will skip code that is unnecessary. Here is a good example:
 
