@@ -56,7 +56,6 @@ strong {
   line-height: modular-scale(0, 1em, 1.5);
   color: $complementary;
   text-shadow: $secondary 0 1px;
-  text-transform: capitalize;
 }
 h1 {
 	@extend %heading;
