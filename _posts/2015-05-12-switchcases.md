@@ -77,7 +77,7 @@ function getFavoriteColor(name) {
 
 Awesome! Not only did we shave down the amount of repeated code, but our code is also much easier to read. One thing you may notice is that the `return` statement for our function has the logical Or operator at the end. This lets us easily simulate the `else` clause in our previous function. If the value of the `name` variable is not a property defined for the `colors` object, we will `undefined`. As this is considered 'falsy' in JavaScript, we will short-circuit to the string "blue."
 
-*Note: While short-circuit evaluation can cut down on lines of code, it can also lead to difficult to find logic errors. If you intentionally want to output a falsy value, you should avoid it.*
+*Note: While [short-circuit evaluation](/short-circuit-evaluation/) can cut down on lines of code, it can also lead to difficult to find logic errors. If you intentionally want to output a falsy value, you should avoid it.*
 
 Using this pattern, we can increase the legibility and decrease the overall lines of code needed. But it comes at a cost! The only scenario in which you may want to avoid this, is when the switch case you are trying to create is massive. 
 
