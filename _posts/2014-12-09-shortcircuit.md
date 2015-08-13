@@ -9,7 +9,7 @@ While having little to do with electricity or input-seeking self-aware robots, t
 
 Both computers and humans do not enjoy wasting time. As such, some programming languages will skip code that is unnecessary. Here is a good example:
 
-```javascript
+``` javascript
 if( true || aTotallyUndeclaredVariable ) {
 	alert("whoa!");
 }

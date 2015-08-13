@@ -4,7 +4,7 @@ markdown:         kramdown
 # redcarpet:
 #   extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables"]
 
-highlighter:      pygments
+#highlighter:      pygments
 
 # Permalinks
 permalink:        pretty
@@ -32,5 +32,3 @@ linkedin:         taveras
 sass:
   sass_dir:       _sass
   style:          compressed
-
-theme:            red
