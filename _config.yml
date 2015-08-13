@@ -4,7 +4,7 @@ markdown:         kramdown
 # redcarpet:
 #   extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables"]
 
-highlighter:      rouge
+highlighter:      pygments
 
 # Permalinks
 permalink:        pretty
