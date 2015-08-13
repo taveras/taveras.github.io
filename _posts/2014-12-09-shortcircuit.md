@@ -9,11 +9,11 @@ While having little to do with electricity or input-seeking self-aware robots, t
 
 Both computers and humans do not enjoy wasting time. As such, some programming languages will skip code that is unnecessary. Here is a good example:
 
-``` javascript
+{% highlight javascript %}
 if( true || aTotallyUndeclaredVariable ) {
-	alert("whoa!");
+  alert("whoa!");
 }
-```
+{% endhighlight %}
 
 In the above example, the alert will go off without a hitch. The reason why, is that the JavaScript engine knows that in order to satisfy the logical Or operator (`||`), only one of the two expressions on either side needs to be true. 
 
@@ -21,22 +21,22 @@ Naturally, it starts from the left to the right. Once it sees the first expressi
 
 How might this be useful? The most common use case is for specifying default values. Look at this function:
 
-```javascript
+{% highlight javascript %}
 function speak( message ) {
-	alert( message || "Hello!" );
+  alert( message || "Hello!" );
 }
 speak("Howdy!"); // alert with message 'Howdy!'
 speak(); // alert with message 'Hello!'
-```
+{% endhighlight %}
 
 Here, we rely on the value of our `message` argument. {% include pullquote.html quote="If the value is 'truthy' the engine will use it, as it satisfies the requirement of our Or operator."%} But if the `message` is 'falsy,' meaning `undefined`, `null`, `false`, `0`, or an empty string, then we will use the string "Hello!", which we know will satisfy the requirement.
 
 
 The important drawback to remember with short-circuit evaluation, is that it loses its luster when we need to maintain a 'falsy' value. For example:
 
-```javascript
+{% highlight javascript %}
 speak(0); // alert with message 'Hello!'
-```
+{% endhighlight %}
 
 If we really wanted our alert to only show the number 0, we would be unable to use short-circuit evaluation inside of the `speak` function. Because the value 0 is 'falsy,' it will never satisfy the logical Or condition. We will also never be able to pass in `false`, `null`, or an empty string.
 
