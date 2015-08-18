@@ -13,7 +13,7 @@ noindex: true
 
 ### Front End Developer, Byte Dept. Inc. - _February 2014 - Present_
 
-- Built web apps for a diverse mix of clients, chiefly implementing these with _JavaScript, PHP CSS3,_ and varying _HTML5 APIs._
+- Built web apps for a diverse mix of clients, chiefly implementing these with _JavaScript, PHP CSS3,_ and various _HTML5 APIs._
 - Measured company site performance and implements custom events with _Google Analytics._
 - Provisioned and monitored _AWS EC2_ nodes running Ruby on Rails.
 - Taught _Git_ workflow and usage to peers and clients.

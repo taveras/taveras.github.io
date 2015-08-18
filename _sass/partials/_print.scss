@@ -28,9 +28,9 @@
 						&:after {
 							content: ":";
 						}
-						a {
-							color: $secondary-faded;
-						}
+					}
+					a {
+						color: $black;
 					}
 				}
 			}
@@ -51,6 +51,7 @@
 		}
 		ul {
 			margin: 0.1em 0;
+			line-height: 1.3em;
 			li {
 				list-style: circle;
 				padding: 0.1em 0;
@@ -58,6 +59,8 @@
 		}
 		.skills {
 			li {
+				font-size: 1em;
+				line-height: 1em;
 				cursor: default;
 				&:hover{
 					background: none;
