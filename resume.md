@@ -22,7 +22,6 @@ noindex: true
 ### Genius, Apple Inc. - _November 2007 - February 2014_
 
 - Repaired hardware, software and network issues within the Apple ecosystem.
-- Strategized processes to improve repair and appointment backlogs.
 - Automated common tasks in the repair process with _shell scripts._
 - Wrote internal web applications to improve daily operations using _JavaScript, PHP,_ and _MySQL._
 
@@ -37,7 +36,7 @@ noindex: true
 ### Broward College, Fort Lauderdale, FL - _2006-2008_
 - Majored in _Computer Science_
 - Relevant coursework: _Computer Programming, Computer Networking_
-- Tutored peers in writing _Java_ code and _Networking_ as a member of the campus Computer Club.
+- Tutored peers in writing _Java_ code and _Networking._
 
 ### Dillard High School, Fort Lauderdale, FL - _2002-2006_
 
@@ -46,18 +45,12 @@ noindex: true
 - Organized an annual Lego Robotics competition for middle school students.
 
 - **Software Team Leader, Robotics Club**
-
-	- Programmed the club's annual robot in _C_ and _PBASIC._
-	- Managed a small group of programmers, and collaborated with the mechanical and electrical teams to design autonomous mode behavior.
+	- Worked in cross-functional fashion to design and write autonomous behavior, using _C_ and _PBASIC._
 	- Created technical documentation and flowcharts for code and autonomous mode strategy.
 
 - **Web Director, Multimedia Club**
-
-	- Maintained small-scale web projects, written in _PHP,_ and _JavaScript_, standards-compliant _HTML,_ and _CSS._
-	- Managed a small team of web developers and graphic designers in a variety of projects.
-
+	- Maintained small-scale web projects, written in _PHP,_ and _JavaScript_, standards-compliant _XHTML,_ and _CSS._
 
 -  **Founder & Director, Programming Club**
-
 	- Mentored and facilitated workshops for students to learn Java and object-oriented programming.
 	- Created varying difficulty practice challenges for annual programming competitions.
