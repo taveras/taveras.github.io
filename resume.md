@@ -19,7 +19,7 @@ noindex: true
 - Taught _Git_ workflow and usage to peers and clients.
 
 
-### Genius, Apple Inc. - _November 2007 - February 2014_
+### Genius / Web Developer, Apple Inc. - _November 2007 - February 2014_
 
 - Repaired hardware, software and network issues within the Apple ecosystem.
 - Automated common tasks in the repair process with _shell scripts._
