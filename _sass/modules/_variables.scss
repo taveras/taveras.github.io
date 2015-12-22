@@ -29,7 +29,7 @@ $secondary-link: mix( $primary-link, $secondary, 55% );
 $secondary-faded: desaturate($secondary-link, 25%);
 $secondary-light: lighten($secondary-faded, 21%);
 $sans-serif: join( "Raleway", $helvetica, comma );
-$serif: join( "Radley", $georgia, comma );
+$serif: join( "Martel", $georgia, comma );
 $fixed-width: join( "Inconsolata", $monospace, comma );
 $modular-scale-base: em(20px);
 

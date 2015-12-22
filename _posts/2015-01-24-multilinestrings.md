@@ -3,6 +3,7 @@ layout: post
 title: Multi-Line Strings
 permalink: multi-line-strings
 duration: 2
+description: Writing text that spans multiple lines is inevitable in programming. For this in JavaScript, we have some helpful patterns.
 ---
 
 Making multi-lined text strings in JavaScript may not be as simple when compared to other languages, but there are a few nice ways to do it.

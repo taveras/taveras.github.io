@@ -2,28 +2,29 @@
 	padding-bottom: 0;
 	background-color: $primary;
 	color: $primary-link;
-	.title { overflow: hidden; }
-	h1, p.lead, ul {
-		text-align: center;
-		@include user-select(none);
-	}
-	h1 {
-		text-align: start;
-	}
-	p.lead {
-		display: none
-	}
-	h1 {
-		@include long-shadow($secondary, 1px, $count: 150);
+	.title {
+		overflow: hidden;
+		padding: 2em 0;
 
-
-		margin: em(5px);
 		a {
+			@include long-shadow($secondary, 1px, $count: 150);
+			@extend %heading;
+  		font-size: modular-scale(5);
+  		color: $primary-link;
+
 			&:hover, &:focus {
 				color: $primary-link;
 			}
 		}
 	}
+	.title, p.lead, ul {
+		text-align: center;
+		@include user-select(none);
+	}
+	p.lead {
+		display: none
+	}
+
 	ul {
 		background-color: $secondary;
 		margin: 0;

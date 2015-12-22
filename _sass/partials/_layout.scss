@@ -32,8 +32,8 @@ body {
 	margin: auto;
 	@include outer-container;
 	.page {
-		@include span-columns(8);
-		@include shift(1);
+		@include span-columns(6);
+		@include shift(2);
 
 		@include media($phablet) {
 			@include span-columns(3);

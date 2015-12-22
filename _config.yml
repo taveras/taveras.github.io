@@ -13,11 +13,11 @@ permalink:        pretty
 title:            Daniel Taveras
 tagline:          'web developer'
 description:      'Coder, technician, console cowboy, technocrat!'
-url:              http://danieltaveras.com
+url:              http://www.danieltaveras.com
 
 author:
   name:           'Daniel Taveras'
-  url:            http://danieltaveras.com
+  url:            http://www.danieltaveras.com
 
 paginate:         3
 paginate_path: "/weblog/page:num/"

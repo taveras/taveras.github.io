@@ -2,15 +2,16 @@
 layout: page
 title: Weblog
 notitle: true
+description: Many of the things I write about in my blog relate to writing software in the JavaScript language, or the Web in general.
 ---
 <div class="posts">
   {% for post in paginator.posts %}
   <div class="post">
-    <h1 class="post-title">
-      <a href="{{ post.url }}">
+    <h2 class="post-title">
+      <a href="{{ post.url }}/">
         {{ post.title }}
       </a>
-    </h1>
+    </h2>
     <span class="post-date">{% assign d = post.date | date: "%-d"  %}{{ post.date | date: "%B" }} {% case d %}{% when '1' or '21' or '31' %}{{ d }}st{% when '2' or '22' %}{{ d }}nd{% when '3' or '23' %}{{ d }}rd{% else %}{{ d }}th{% endcase %}, {{ post.date | date: "%Y" }} {% if post.duration != null %} - {{post.duration}} minute read{% endif %}</span>
 
     {{ post.excerpt }}

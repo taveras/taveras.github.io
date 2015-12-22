@@ -4,6 +4,7 @@ title: Résumé
 notitle: true
 nonav: true
 noindex: true
+description: My past experiences and current skills. It has all been fun and exciting!
 ---
 
 
@@ -11,10 +12,13 @@ noindex: true
 
 ## Experience
 
-### Front End Developer, Byte Dept. Inc. - _February 2014 - Present_
+### SEO Engineer, Condé Nast - _November 2015 - Present_
+- Resolved SEO impacting technical issues on web apps written in _JavaScript_, built with _React_.
+- Built internal web apps and auditing tools for magazine websites.
+
+### Front End Developer, Byte Dept. Inc. - _February 2014 - November 2015_
 
 - Built web apps for a diverse mix of clients, chiefly implementing these with _JavaScript, PHP CSS3,_ and various _HTML5 APIs._
-- Measured company site performance and implements custom events with _Google Analytics._
 - Provisioned and monitored _AWS EC2_ nodes running Ruby on Rails.
 - Taught _Git_ workflow and usage to peers and clients.
 
@@ -22,8 +26,7 @@ noindex: true
 ### Genius / Web Developer, Apple Inc. - _November 2007 - February 2014_
 
 - Repaired hardware, software and network issues within the Apple ecosystem.
-- Automated common tasks in the repair process with _shell scripts._
-- Wrote internal web applications to improve daily operations using _JavaScript, PHP,_ and _MySQL._
+- Wrote web apps and scripts to improve daily operations using _bash scripts_, _JavaScript, PHP,_ and _MySQL._
 
 
 ---

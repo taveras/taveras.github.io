@@ -3,6 +3,7 @@ layout: post
 title: Object-literal Switch Cases
 permalink: switch-cases
 duration: 6
+description: The software we write commonly will require complex decision making. We can make these decisions much more legible by taking advantage of a JavaScript perk.
 ---
 
 When it comes to writing software, the first real taste of power you get is when you get your hands on conditional statements. Code commonly will spiral out of control by taking on a large amount of scenarios, but in turn taking legibility with it. Here is a way we can fix that.
