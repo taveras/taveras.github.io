@@ -1,4 +1,4 @@
-Hi, I'm *Danny*, a web developer who works full-time at *Condé Nast.*
+Hi, I'm *Daniel*, a web developer who works full-time at *Condé Nast.*
 
 I have been making stuff on the Web as far back as when we were crippled by web safe colors, and we sang chants chock-full of acronyms such as 'DHTML.'
 
