@@ -1,0 +1,75 @@
+==================================================================
+https://keybase.io/taveras
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://www.danieltaveras.com
+  * I am taveras (https://keybase.io/taveras) on keybase.
+  * I have a public key with fingerprint 9168 DACD FCA7 6F35 FD30  4A24 1A76 5F5F CAAA AB01
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "012036aba9020a87f7d57e7c3a2c0e8a8ae54a2b799af1311ce1f853280a173e4a170a",
+            "fingerprint": "9168dacdfca76f35fd304a241a765f5fcaaaab01",
+            "host": "keybase.io",
+            "key_id": "1a765f5fcaaaab01",
+            "kid": "0101aefcae3d5c9213d58dfe855824eb1a9d66f46c3b20a068af75aa36bda6991b420a",
+            "uid": "be4ce73b936ed22e5cd94f6e572ee819",
+            "username": "taveras"
+        },
+        "service": {
+            "hostname": "www.danieltaveras.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1476850180,
+    "expire_in": 157680000,
+    "prev": "e7d084bbe2ac87f96a7f0bc87d759c3272688b3f72a9f772333b9f43ec8fbdd7",
+    "seqno": 12,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.58
+Comment: https://keybase.io/crypto
+
+yMNtAnicbZJtUFRVGMd3VyBlBd1BrcEJ6kaN5kr3/dy7GPGixozmqDO1jEQ75957
+LlyB3XV3AQFX+ACSLIYSFr6QCtSYWLyNBdGYIIMDDIUw9GJu1NDYVNSgvQGzUGcZ
+/Nb5cM89z/z/v/t/nnv6I1bowvXRBTbb0JUWvX6490K+Lj3sQUgJITmUIsJSQuSg
+pQ3lKsjtseVoCmEhSIomGR5KUCRpEgpABQoHEJAZSMskEqAAEcdCWgKiCFWKoSgZ
+UarAMbRAQgowiMVPEhJmQtXsWcjldGl2D8aKFC8oUFZUGQJeZThVYUiMYSl85FQO
+l/GSSAobsx3uoAOHk6AbxWsOXMMH21K8/9E/zE1SEOE6YhROFmkKb4KiIoHjBJpF
+EgVFhedVlpcZCTdG8gJUAQchw0sK5EWRklh6KXf+Ek5CrIwAI4kMjxSaRpysiKzK
+Iw7QCAmUGBS6kcsO8xBWe2ABckE34TUTuFigySg412Ajy4LCwsJ4Bdo1lLssjZcd
+eZjhdDk8DtmRiyXZHo/TEiR4ipxLFiTZlmE2SbMreJzYgM1uzWEnLBRWyh4tSKdY
+wAscSQmkmUCHnZoL2bSggsNlEq/gZ1ABRiKgkAIrSYiGMv6zIg+BSkr4VQGcKDM0
+oHlBkBgV0FBUAaAZBg9AZRkkC6qkKIAItnfI7sBsGueEWZjp1rLs0JPvQoS3r/fV
+EJ0+XBcWagjeM134qrUPb9+p4TWLbFfVNmlzAtuTafvhd9JbYzjd3OtLO3FjwVp2
+/8Ti7ajSmYnkguOzz82PDy7Ulcb6aeN7VS9VqJN7v1cmDnSbNi2cuXVn5JWUdvcT
+q80tTYF/4mIflJdsaBy5d3JHXMi+UOuRn5LCMvTP/zFO6AwL9VHeNz4tqn6Nid/Z
+75ev+rL15+/VhK5LLLXtIcv/VT8ZbJl5/FZDQrW1syJVG08i+nQZXbsSr9fEH72U
+SS+CjVFCxlDG1Yv770enNtGXzxoFajKw7/NUenfVYx3iQe/PU2nFR4xjI/vb1l+b
+PuCyjvobq6501/5y/P3WLXdSIltyXtj81W1j4GLraOmEzwK29tvrEzvmIv11o/qj
+x6Yatg6kfvv3Gt/22eyb2/ra6rdH/vWkOWbalC4Wf713I/QdS3i5nDI8SqEv4qxz
+BkfMZNlTUYW66rwP5u/OrzNbmiqJqPxdT/d6dYHDW2ZXta7sfNuJGoY3NXxsOt0d
+PRaxI/DRnsHL68d+fGb3zaSd9oHmLq6s8Jv2xvBkvSFnxnd2bUJ3/eqZ36aSK1bk
+MCVJ5J8n/U6WHniH8VO14LMQOdB+6tyzl7SYCx1vps/9Ct+qZUOtfZGPGJuH2rNM
+2qHXxysPtqVMmUBnxwYtdmqyp3JsNKH5xYUb3dfYYWNVR13ad19+6J02W+9GeLLD
+8q6vDOuZLT7zbuZ/3CO/cg==
+=yi5R
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/taveras
+
+==================================================================
