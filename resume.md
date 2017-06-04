@@ -12,9 +12,11 @@ description: My past experiences and current skills. It has all been fun and exc
 
 ## Experience
 
-### SEO Engineer, Condé Nast - _November 2015 - Present_
-- Resolved SEO impacting technical issues on web apps written in _JavaScript_, built with _React_.
-- Built internal web apps and auditing tools for magazine websites.
+### Software Engineer, SEO, Condé Nast - _November 2015 - Present_
+- Wrote JavaScript (ES2015, NodeJS, and ReactJS) code to implement reusable components.
+- Led efforts to minimize loss of search traffic for the re-platforming of over 10 magazine web sites.
+- Resolved SEO impacting technical issues on magazine web sites.
+- Built internal web apps and auditing tools to analyze the structure of web sites.
 
 ### Front End Developer, Byte Dept. Inc. - _February 2014 - November 2015_
 
