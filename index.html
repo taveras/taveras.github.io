@@ -2,9 +2,16 @@
 layout: page
 title: About
 notitle: true
-description: My name is Daniel Taveras, a web developer who has been making stuff on the Web as far back as when we were crippled by web safe colors.
+description: Writing web developer who has been making stuff on the Web as far back as when we were crippled by web safe colors.
 ---
 {% include img.html class="framed" pull="left" src="public/daniel-taveras.jpg" alt="A selfie of yours truly." %}
-
 {% capture blurb %}{% include blurb.md %}{% endcapture %}
 {{ blurb | markdownify }}
+<br />
+<h3>Writings</h3>
+{% for post in site.posts %}
+<h4 class="post-title">
+  <a href="{{ post.url }}">{{ post.title }}</a>
+  <span class="post-date">{% if post.duration != null %}{{post.duration}} minute read{% endif %}</span>
+</h4>
+{% endfor %}

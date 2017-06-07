@@ -19,8 +19,6 @@ author:
   name:           'Daniel Taveras'
   url:            http://www.danieltaveras.com
 
-paginate:         3
-paginate_path: "/weblog/page:num/"
 
 # Custom vars
 version:          2.0.0
@@ -28,6 +26,7 @@ version:          2.0.0
 github:           taveras
 twitter:          danieljtaveras
 linkedin:         taveras
+keybase:          taveras
 
 sass:
   sass_dir:       _sass

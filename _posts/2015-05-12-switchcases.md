@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Object-literal Switch Cases
-permalink: switch-cases
+permalink: /switch-cases/
 duration: 6
 description: The software we write commonly will require complex decision making. We can make these decisions much more legible by taking advantage of a JavaScript perk.
 ---

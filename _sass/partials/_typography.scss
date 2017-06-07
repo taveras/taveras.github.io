@@ -1,42 +1,42 @@
 // Generic elements
 
 body {
-	color: $body-copy;
-	font-family: $serif;
-	line-height: modular-scale(1, 1em, 1.5);
-	letter-spacing: em(0.5px);
-	cursor: default;
-	text-rendering: optimizeLegibility;
+  color: $body-copy;
+  font-family: $serif;
+  line-height: modular-scale(1, 1em, 1.5);
+  letter-spacing: em(0.5px);
+  cursor: default;
+  text-rendering: optimizeLegibility;
 }
 .masthead, .colophon {
-	font-family: $sans-serif;
+  font-family: $sans-serif;
 }
 
 a {
-	text-decoration: none;
-	color: $primary;
-	.masthead &, .colophon & {
-		color: $primary-link;
-		&:hover, &:focus {
-			color: $secondary-link;
-			text-decoration: none;
-		}
-	}
-	&:hover, &:focus {
-		color: $secondary;
-		text-decoration: underline;
-	}
+  text-decoration: none;
+  color: $primary;
+  .masthead &, .colophon & {
+    color: $primary-link;
+    &:hover, &:focus {
+      color: $secondary-link;
+      text-decoration: none;
+    }
+  }
+  &:hover, &:focus {
+    color: $secondary;
+    text-decoration: underline;
+  }
 }
 
 p {
   margin-top: 0;
   margin-bottom: 1rem;
-	.content & {
-		cursor: auto;
-	}
-	.colophon & {
-		font-size: modular-scale(-1);
-	}
+  .content & {
+    cursor: auto;
+  }
+  .colophon & {
+    font-size: modular-scale(-1);
+  }
 }
 
 strong {
@@ -44,8 +44,8 @@ strong {
 }
 
 .pagination {
-	font-family: $sans-serif;
-	font-size: modular-scale(0);
+  font-family: $sans-serif;
+  font-size: modular-scale(0);
 }
 
 // Headings //
@@ -55,26 +55,26 @@ strong {
   font-weight: bold;
   line-height: modular-scale(0, 1em, 1.5);
   color: $complementary;
-  text-shadow: $secondary 0 1px;
+  // text-shadow: $secondary 0 1px;
 }
 h1 {
-	@extend %heading;
-  font-size: modular-scale(3);
-}
-h2 {
-	@extend %heading;
-  margin-top: 1rem;
+  @extend %heading;
   font-size: modular-scale(2);
 }
-h3 {
-	@extend %heading;
-  margin-top: 1.5rem;
+h2 {
+  @extend %heading;
+  margin-top: 1rem;
   font-size: modular-scale(1);
 }
-h4, h5, h6 {
-	@extend %heading;
-  margin-top: 1rem;
+h3 {
+  @extend %heading;
+  margin-top: 1.5rem;
   font-size: modular-scale(0);
+}
+h4, h5, h6 {
+  @extend %heading;
+  margin-top: 1rem;
+  font-size: modular-scale(-1);
 }
 
 
@@ -82,49 +82,49 @@ h4, h5, h6 {
 // List elements
 
 ol li {
-	list-style: lower-alpha outside;
+  list-style: lower-alpha outside;
 }
 ul li {
-	list-style: square outside;
-	& & {
-		list-style: circle outside;
-	}
+  list-style: square outside;
+  & & {
+    list-style: circle outside;
+  }
 }
 
 li.active {
-	font-weight: bold;
+  font-weight: bold;
 }
 
 // Code blocks
 %codeblock {
-	font-family: $fixed-width;
-	font-size: 1.15em;	
+  font-family: $fixed-width;
+  font-size: 1.15em;	
 }
 
 pre {
-	@extend %codeblock;
-	display: block;
-	margin-top: 0;
-	margin-bottom: 1rem;
-	padding: 1rem;
-	
-	line-height: modular-scale(0, 1em, 1.5);
-	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
-	white-space: pre;
-	white-space: pre-wrap;
-	@include word-wrap;	
+  @extend %codeblock;
+  display: block;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  padding: 1rem;
+
+  line-height: modular-scale(0, 1em, 1.5);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+  white-space: pre;
+  white-space: pre-wrap;
+  @include word-wrap;	
 }
 
 code {
-	@extend %codeblock;
+  @extend %codeblock;
 }
 
 hr {
-	opacity: 0.5;
-	height: 3px;
-	border: 0;
-	@include border-radius( em(3px) );
-	@include linear-gradient(to right, $secondary-link, $secondary 25%, $secondary 75%, $secondary-link, $fallback: $secondary);
+  opacity: 0.5;
+  height: 3px;
+  border: 0;
+  @include border-radius( em(3px) );
+  @include linear-gradient(to right, $secondary-link, $secondary 25%, $secondary 75%, $secondary-link, $fallback: $secondary);
 }
 
 
@@ -141,33 +141,34 @@ blockquote {
   color: $body-strong;
   border-left: 0.25em solid $body-highlight;
   *:last-child {
-  	margin-bottom: 0;
+    margin-bottom: 0;
   }
 }
 
 .post-date {
-	color: $body-highlight;
-	text-transform: lowercase;
+  color: $body-highlight;
+  text-transform: lowercase;
+  font-weight: normal;
 }
 
 
 table {
-	margin: em(20px) 0;
+  margin: em(20px) 0;
 
-	thead {
-		background: $secondary-link;
-		color: $white;
-		text-shadow: $secondary-faded 0 1px;
-	}
+  thead {
+    background: $secondary-link;
+    color: $white;
+    text-shadow: $secondary-faded 0 1px;
+  }
 
-	td, th {
-	  padding: 4px 10px;
-	  &+td, &+th {
-	  	border-left: 3px solid $white;
-	  }
-	}
+  td, th {
+    padding: 4px 10px;
+    &+td, &+th {
+      border-left: 3px solid $white;
+    }
+  }
 
-	tr:nth-of-type(2n) {
-		background: $secondary-light;
-	}
+  tr:nth-of-type(2n) {
+    background: $secondary-light;
+  }
 }

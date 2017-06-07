@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Date String Formats in JavaScript
-permalink: date-strings
+permalink: /date-strings/
 duration: 4
 description: Browsers vary in the string format for dates. Also, there is history behind representing real-world dates on a computer. Pun unfortunately intended.
 ---
