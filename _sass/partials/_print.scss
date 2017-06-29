@@ -1,80 +1,80 @@
 @media print {
-	html, body, .container, .resume {
-		padding: 0;
-		margin: 0;
-		color: $black;
-		font-size: 12px;
-		background: $white;
-	}
-	@page {
-		margin: 2cm;
-	}
-	.resume {
-		font-size: 1em;
-		margin: 0 2em;
+  html, body, .container, .resume {
+    padding: 0;
+    margin: 0;
+    color: $black;
+    font-size: 12px;
+    background: $white;
+  }
+  @page {
+    margin: 2cm;
+  }
+  .resume {
+    font-size: 1em;
+    margin: 0 2em;
 
-		header {
-			h1 {
-				font-size: 1.5em;
-				color: $secondary;
-			}
-			ul {
-				font-size: 1em;
-				li {
-					&+&::before {
-						content: " ";
-					}
-					span {
-						color: $secondary;
-						background: none;
-						&:after {
-							content: ":";
-						}
-					}
-					a {
-						color: $black;
-					}
-				}
-			}
-		}
-		h2 {
-			font-size: 1.25em;
-			margin: 0;
-			color: $secondary;
-			text-shadow: none;
-		}
-		h3 {
-			font-size: 1em;
-			margin: 10px 0;
-			text-shadow: none;
-		}
-		hr {
-			display: none;
-		}
-		ul {
-			margin: 0.1em 0;
-			line-height: 1.3em;
-			li {
-				list-style: circle;
-				padding: 0.1em 0;
-			}
-		}
-		.skills {
-			margin: 10px 0;
+    header {
+      h1 {
+        font-size: 1.5em;
+        color: $secondary;
+      }
+      ul {
+        font-size: 1em;
+        li {
+          &+&::before {
+            content: " ";
+          }
+          span {
+            color: $secondary;
+            background: none;
+            &:after {
+              content: ":";
+            }
+          }
+          a {
+            color: $black;
+          }
+        }
+      }
+    }
+    h2 {
+      font-size: 1.25em;
+      margin: 0;
+      color: $secondary;
+      text-shadow: none;
+    }
+    h3 {
+      font-size: 1em;
+      margin: 10px 0;
+      text-shadow: none;
+    }
+    hr {
+      display: none;
+    }
+    ul {
+      margin: 0.1em 0;
+      line-height: 1.3em;
+      li {
+        list-style: circle;
+        padding: 0.1em 0;
+      }
+    }
+    .skills {
+      margin: 10px 0;
 
-			li {
-				font-size: 12px;
-				line-height: 1em;
-				cursor: default;
-				&:hover{
-					background: none;
-					border: none;
-				}
-			}
-		}
-		strong {
-			font-style: italic;
-			font-weight: normal;
-		}
-	}
+      li {
+        font-size: 12px;
+        line-height: 1em;
+        cursor: default;
+        &:hover{
+          background: none;
+          border: none;
+        }
+      }
+    }
+    strong {
+      font-style: italic;
+      font-weight: normal;
+    }
+  }
 }

@@ -25,7 +25,7 @@
     @else {
       $blur-step: if($blur > 0, $blur, null);
     }
-    
+
     $step:      ($x-step $y-step $blur-step $color);
     $out:       append($out, $step, comma);
   }

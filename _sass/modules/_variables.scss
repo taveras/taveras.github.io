@@ -17,10 +17,10 @@ $white: #ffffff;
 $black: #000000;
 
 
-$primary: $cyan;
+$primary: $teal;
 
 $secondary: darken( $primary, 10% );
-$complementary: complement( $primary );
+$complementary: complement( lighten($primary, 15%));
 $body-copy: mix( lighten( $black, 40% ), $primary, 80%);
 $body-strong: darken( $body-copy, 30%);
 $body-highlight: lighten( $body-copy, 30%);

@@ -2,12 +2,12 @@
 // Only make the body change colors
 // when the Neat visual grid is off.
 @if not $visual-grid {
-	body {
-		background-color: $secondary;
-	}
-	.container {
-		background-color: $white;
-	}
+  body {
+    background-color: $secondary;
+  }
+  .container {
+    background-color: $white;
+  }
 }
 
 body {
@@ -26,73 +26,81 @@ body {
   padding: em(40px) 0;
 }
 .content {
-	
-	padding: 0;
-	width: auto;
-	margin: auto;
-	@include outer-container;
-	.page {
-		@include span-columns(6);
-		@include shift(2);
 
-		@include media($phablet) {
-			@include span-columns(3);
-			@include pad;
-		}
-    @include media($mobile) {
+  padding: 0;
+  width: auto;
+  margin: auto;
+  @include outer-container;
+  .page {
+
+    @include span-columns(8);
+    @include shift(1);
+
+    @include media($tablet) {
       @include span-columns(4);
+      @include shift(1);
+      // @include pad;
+    }
+
+    @include media($phablet) {
+      @include span-columns(4);
+      @include shift(0);
+      @include pad;
+    }
+
+    @include media($mobile) {
       margin-left: 0;
       @include pad(em(15));
     }
-	}
+  }
 }
 
 .masthead, .colophon {
-	ul {
-		padding: 0;
-		margin: 0;
-	}
+  ul {
+    padding: 0;
+    margin: 0;
+  }
 }
 
 .masthead {
-	.title {
-		@include outer-container;
-		h1 {
-			@include span-columns(8);
-			@include shift(1);
-			font-size: modular-scale(6, 24px);
+  .title {
+    @include outer-container;
+    h1 {
+      @include span-columns(8);
+      @include shift(1);
+      font-size: modular-scale(6, 24px);
       white-space: nowrap;
 
-			@include media($desktop) {
-				@include shift(1);
-				@include span-columns(6);
-				font-size: modular-scale(5);
-			}
+      @include media($desktop) {
+        @include shift(1);
+        @include span-columns(6);
+        font-size: modular-scale(5);
+      }
 
-			@include media($tablet) {
-				@include span-columns(5);
-				font-size: modular-scale(5, 24px);
-			}
+      @include media($tablet) {
+        @include span-columns(5);
+        font-size: modular-scale(5, 24px);
+      }
       @include media($sub-tablet) {
         @include span-columns(5);
         font-size: modular-scale(4, 24px);
         white-space: normal;
       }
-			@include media($phablet) {
-        
-				@include span-columns(3);
-				@include pad;
+      @include media($phablet) {
+
+        @include span-columns(3);
+        @include pad;
         @include long-shadow($secondary, 0.6px);
         text-align: center;
-			}
+      }
 
-			@include media($mobile) {
-				font-size: modular-scale(3, 24px);
+      @include media($mobile) {
+        font-size: modular-scale(3, 24px);
         margin: 0;
         @include span-columns(4);
-			}
-		}
-	}
+      }
+    }
+  }
 }
 .pagination {
   @include media($phablet) {
@@ -101,71 +109,71 @@ body {
 }
 
 .resume {
-	@include media(print) {
-		body {
-			font-size: em(10px);
-		}
-	}
-	padding: em(60px);
-	line-height: em(30px);
-	ul li {
-		list-style: square outside;
-  	line-height: 1.3em;
-  	padding: 0.4em 0;
-	}
-	header {
-		text-align: right;
-		ul {
-			margin-top: 0.5em;
-			li {
-				list-style: none;
-				display: inline;
-				&+li::before {
-					content: " ▪︎ ";
-					color: $primary;
-				}
-				span {
-					background: $primary;
-					color: $white;
-					//border-radius: 5px;
-					@include border-radius( em(5px) );
-					padding: em(5px);
-				}
-			}
-		}
-		@include media($tablet) {
-			ul {
-				float: right;
-				li {
-				display: block;
-				text-align: left;
-					&+li::before {
-						content: " ";
-					}
-				}
-			}
-		}
-	}
-	.skills {
-		li {
-			display: inline;
-			list-style: none;
-			transition: 0.2s all;
-			cursor: pointer;
-			&:hover {
-				background-color: rgba($secondary, 0.1);
-				//border-radius: 15px;
-				@include border-radius( em(15px) );
-			}
-		}
-	}
-	h1 {
-		margin: 0;
-		color: $primary;
-		font-size: modular-scale(5);
-	}
-	h3, h4 {
-		margin-bottom: em(2px);
-		color: $body-strong;
-	}
+  @include media(print) {
+    body {
+      font-size: em(10px);
+    }
+  }
+  padding: em(60px);
+  line-height: em(30px);
+  ul li {
+    list-style: square outside;
+    line-height: 1.3em;
+    padding: 0.4em 0;
+  }
+  header {
+    text-align: right;
+    ul {
+      margin-top: 0.5em;
+      li {
+        list-style: none;
+        display: inline;
+        &+li::before {
+          content: " ▪︎ ";
+          color: $primary;
+        }
+        span {
+          background: $primary;
+          color: $white;
+          //border-radius: 5px;
+          @include border-radius( em(5px) );
+          padding: em(5px);
+        }
+      }
+    }
+    @include media($tablet) {
+      ul {
+        float: right;
+        li {
+          display: block;
+          text-align: left;
+          &+li::before {
+            content: " ";
+          }
+        }
+      }
+    }
+  }
+  .skills {
+    li {
+      display: inline;
+      list-style: none;
+      transition: 0.2s all;
+      cursor: pointer;
+      &:hover {
+        background-color: rgba($secondary, 0.1);
+        //border-radius: 15px;
+        @include border-radius( em(15px) );
+      }
+    }
+  }
+  h1 {
+    margin: 0;
+    color: $primary;
+    font-size: modular-scale(5);
+  }
+  h3, h4 {
+    margin-bottom: em(2px);
+    color: $body-strong;
+  }
 }
