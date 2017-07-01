@@ -11,12 +11,12 @@
 }
 
 body {
-  font-size: modular-scale(0);
+  font-size: modular-scale(-1);
   @include media($tablet) {
-    font-size: em(18px);
+    font-size: em(14px);
   }
   @include media($phablet) {
-    font-size: em(16px);
+    font-size: em(14px);
   }
   @include media($mobile) {
     font-size: em(14px);
@@ -137,7 +137,7 @@ body {
           color: $white;
           //border-radius: 5px;
           @include border-radius( em(5px) );
-          padding: em(5px);
+          padding: 0 em(5px);
         }
       }
     }

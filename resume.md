@@ -4,7 +4,7 @@ title: Résumé
 notitle: true
 nonav: true
 noindex: true
-description: My past experiences and current skills. It has all been fun and exciting!
+description: A glimpse into the experience of a software engineer.
 ---
 
 
