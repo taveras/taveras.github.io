@@ -11,12 +11,12 @@
 }
 
 body {
-  font-size: modular-scale(-1);
+  font-size: modular-scale(0);
   @include media($tablet) {
-    font-size: em(14px);
+    font-size: em(18px);
   }
   @include media($phablet) {
-    font-size: em(14px);
+    font-size: em(16px);
   }
   @include media($mobile) {
     font-size: em(14px);
@@ -109,13 +109,19 @@ body {
 }
 
 .resume {
+  padding: em(60px);
+  line-height: em(30px);
+
+  body & {
+    font-size: modular-scale(-2);
+  }
+
   @include media(print) {
     body {
       font-size: em(10px);
     }
   }
-  padding: em(60px);
-  line-height: em(30px);
+
   ul li {
     list-style: square outside;
     line-height: 1.3em;
