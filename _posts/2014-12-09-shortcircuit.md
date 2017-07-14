@@ -2,6 +2,7 @@
 layout: post
 title: Short-Circuit Evaluation
 permalink: /short-circuit-evaluation/
+redirect_from: "/short-circuit-evaluation//"
 duration: 5
 description: Short-circuit evaluation may sound like a mad scientist's prep-exam, but it is in truth a useful pattern.
 ---

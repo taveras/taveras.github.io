@@ -2,6 +2,7 @@
 layout: post
 title: Multi-Line Strings
 permalink: /multi-line-strings/
+redirect_from: "/multi-line-strings//"
 duration: 2
 description: Writing text that spans multiple lines is inevitable in programming. For this in JavaScript, we have some helpful patterns.
 ---
