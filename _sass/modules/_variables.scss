@@ -22,14 +22,14 @@ $primary: $teal;
 $secondary: darken( $primary, 10% );
 $complementary: complement( lighten($primary, 15%));
 $body-copy: mix( lighten( $black, 40% ), $primary, 80%);
-$body-strong: darken( $body-copy, 30%);
+$body-strong: darken( $body-copy, 5%);
 $body-highlight: lighten( $body-copy, 30%);
 $primary-link: $white;
 $secondary-link: mix( $primary-link, $secondary, 55% );
 $secondary-faded: desaturate($secondary-link, 25%);
 $secondary-light: lighten($secondary-faded, 21%);
 $sans-serif: join( "Raleway", $helvetica, comma );
-$serif: join( "Martel", $georgia, comma );
+$serif: join( $georgia, comma );
 $fixed-width: join( "Inconsolata", $monospace, comma );
 $modular-scale-base: em(20px);
 

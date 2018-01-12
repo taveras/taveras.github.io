@@ -4,7 +4,7 @@ title: Short-Circuit Evaluation
 permalink: /short-circuit-evaluation/
 redirect_from: "/short-circuit-evaluation//"
 duration: 5
-description: Short-circuit evaluation may sound like a mad scientist's prep-exam, but it is in truth a useful pattern.
+description: Read a guide on how to avoid repetitive conditional logic by instead using a useful pattern.
 ---
 
 While having little to do with electricity or input-seeking self-aware robots, this technique is still pretty cool to see in action.
