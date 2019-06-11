@@ -1,4 +1,4 @@
-Hello! I’m **Daniel**, a web developer writing software full-time at **Condé Nast**.
+Hello! I’m **Daniel**, a web developer writing software full-time at **Apple**.
 
 **California** is where I live. **Florida** is where I was born and raised.
 
