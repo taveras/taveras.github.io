@@ -13,18 +13,18 @@ body {
 }
 
 a {
-  text-decoration: none;
+  text-decoration: underline;
   color: $primary;
   .masthead &, .colophon & {
     color: $primary-link;
+    text-decoration: none;
     &:hover, &:focus {
       color: $secondary-link;
-      text-decoration: none;
     }
   }
   &:hover, &:focus {
     color: $secondary;
-    text-decoration: underline;
+    text-decoration: none;
   }
 }
 

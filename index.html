@@ -9,6 +9,7 @@ redirect_from: "/weblog/"
 {% capture blurb %}{% include blurb.md %}{% endcapture %}
 {{ blurb | markdownify }}
 <br />
+{% if site.posts.any? %}
 <h3>Writings</h3>
 {% for post in site.posts %}
 <h4 class="post-title">
@@ -16,3 +17,4 @@ redirect_from: "/weblog/"
   <span class="post-date">{% if post.duration != null %}{{post.duration}} minute read{% endif %}</span>
 </h4>
 {% endfor %}
+{% endif %}

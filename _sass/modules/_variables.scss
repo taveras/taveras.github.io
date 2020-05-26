@@ -13,11 +13,25 @@ $cyan: #39B3CC;
 $periwinkle: #6C7AB2;
 $purple: #B25CA6;
 
+$sand: #BA9D7B;
+$mutedgreen: #607f66;
+$mutedred: #862027;
+$burntorange: #934c37;
+$navy: #294f65;
+$orange: #cd7850;
+$olive: #c1bb7c;
+$peach: #ebbbae;
+$leather: #a57e4c;
+$peachpink: #cd9588;
+$aquamarine: #b8dbdb;
+
 $white: #ffffff;
 $black: #000000;
 
+$gray: #bbbbbb;
 
-$primary: $teal;
+
+$primary: $mutedgreen;
 
 $secondary: darken( $primary, 10% );
 $complementary: complement( lighten($primary, 15%));
