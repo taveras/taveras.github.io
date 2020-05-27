@@ -12,12 +12,12 @@ permalink:        pretty
 # Setup
 title:            Daniel Taveras
 tagline:          'web developer'
-description:      'Coder, technician, console cowboy, technocrat!'
-url:              http://www.danieltaveras.com
+description:      'Coder, technician, and console cowboy'
+url:              https://www.danieltaveras.com
 
 author:
   name:           'Daniel Taveras'
-  url:            http://www.danieltaveras.com
+  url:            https://www.danieltaveras.com
 
 
 # Custom vars
