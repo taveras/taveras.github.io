@@ -59,12 +59,14 @@ img, div, svg {
       width: 100px;
     }
   }
+  img {
+    margin: 0 1em;
+  }
+
   &.left {
-    margin: 1em 0;
     float: left;
   }
   &.right {
-    margin: 1em 0;
     float: right;
   }
 }
