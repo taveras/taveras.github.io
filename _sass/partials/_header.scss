@@ -7,7 +7,7 @@
     overflow: hidden;
     padding: 1em 0;
 
-    a {
+    a, span {
       @include long-shadow($secondary, 1px, $count: 150);
       @extend %heading;
       font-size: modular-scale(2);
