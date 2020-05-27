@@ -14,7 +14,7 @@ noindex: true
 ### Senior Full Stack Engineer, Apple Inc. - _May 2019 - Present_
 
 
-### Software Engineer, SEO, Condé Nast - _November 2015 - April 2019_
+### Senior Software Engineer, SEO, Condé Nast - _November 2015 - April 2019_
 
 - Led site migrations for over 10 magazine web sites with minimal search traffic loss.
 - Built internal tools to analyze the structure and marketing performance of web sites.
