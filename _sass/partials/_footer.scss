@@ -1,6 +1,6 @@
 
 .colophon {
-  background-color: $secondary;
+  background-color: $white;
   padding: 1em 0;
 
   ul {
@@ -17,11 +17,12 @@
   }
 
   a {
+    color: $secondary;
     padding: em(10px) em(15px);
     @include border-radius( em(3px) );
     &:hover, &:focus {
-      background-color: $primary-link;
-      color: $secondary;
+      background-color: $secondary;
+      color: $primary-link;
     }
   }
   p {
