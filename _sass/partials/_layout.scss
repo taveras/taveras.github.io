@@ -3,7 +3,7 @@
 // when the Neat visual grid is off.
 @if not $visual-grid {
   body {
-    background-color: $secondary;
+    background-color: $white;
   }
   .container {
     background-color: $white;
